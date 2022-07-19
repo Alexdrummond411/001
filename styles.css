@@ -1,0 +1,349 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Baskervville', serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
+}
+
+.imagery{
+  position: absolute;
+  text-align: center;
+  height: 15vh;
+  display: flex;
+  left: 20px;
+  align-items: center;
+  color: red;
+}
+img{
+  width: 50px;
+  margin: 30px;
+}
+figcaption{
+  font-size: 30px;
+  font-family: bahnscrift;
+}
+#header{
+  position: fixed;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  z-index: 1;
+}
+#nav-bar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 15vh;
+}
+
+.nav-link{
+  font-size: 20px;
+  margin: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.block{
+  height: 15vh;
+  position: relative;
+}
+
+
+#second{
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://st.depositphotos.com/1001069/3682/i/450/depositphotos_36828233-stock-photo-wood-texture.jpg');   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 100% 100%;
+  
+}
+h1{
+  font-size: 100px;
+  
+}
+strong{
+  color: red;
+  
+}
+.one{
+  padding: 10px;
+}
+
+iframe{
+  width: 500px;
+  height: 300px;
+}
+
+#third{
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+      display: flex;
+  justify-content: center;
+   align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  background-image: url('https://cdn.kingsbox.com/assets/media/products/body-weight/suspension-training/gymnastic-rings/MA-010-0038--gymnastic-wooden-rings--0.jpg?format=webp');   
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+#box {
+  width: 80%;
+  height: 45vw;
+  padding-top:20px;
+  padding-left:15px;
+  padding-right:15px;
+  display: flex;
+  justify-content: space-evenly;
+        }
+
+li{
+  
+}
+ #box1 {
+  width: 320px;
+  height: 320px;
+  background-color:rgb(360, 360, 360, 0.8);
+  border:solid black;
+        }
+ #box2 {
+  width: 320px;
+  height: 320px;
+  background-color:rgb(360, 360, 360, 0.8);
+  border:solid black;
+  margin-left:20px;
+        }
+ #box3 {
+  width: 320px;
+  height: 320px;
+  background-color:rgb(360, 360, 360, 0.8);
+  border:solid black;
+  margin-left:20px;
+        }
+.h1two{
+  font-size: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+#fourth{
+  display: block;
+  height: 85vh;
+  width: 100%;
+  background-color: red;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://cdn.shopify.com/s/files/1/0551/9641/8238/files/shutterstock_1457601791_3567x_a3aeb5f7-2e12-4fb9-9af5-d5c47198c8e7_480x480.jpg?v=1624250004');   
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+form{
+  color: white;
+  float: right;
+  padding: 20px;
+}
+#email{
+ font-size: 30px;
+ margin: 10px;
+}
+#submit{
+background: rgb(255, 165, 0);
+color: black;
+border-style: outset;
+border-color: black;
+height: 50px;
+width: 100px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+font-size: 25px;
+}
+
+#submit:hover{
+ height: 53px;
+ width: 103px;
+ font-size: 26px;
+}
+
+.h1three{
+  font-size: 50px;
+  margin: 20px;
+  color: black;
+}
+
+#fifth{
+  display: block;
+  height: 15vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+.social-icons{
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+i{
+  color: black;
+  font-size: 2rem;
+
+}
+
+
+
+@media (max-width: 1160px){
+  #second{
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://st.depositphotos.com/1001069/3682/i/450/depositphotos_36828233-stock-photo-wood-texture.jpg');   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100% 100%;
+}
+  #box {
+  width: 80%;
+  height: 200vw;
+  padding-top:20px;
+  padding-left:15px;
+  padding-right:15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+   }
+  
+  #third{
+  display: block;
+  height: 120vh;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  background-image: url('https://cdn.kingsbox.com/assets/media/products/body-weight/suspension-training/gymnastic-rings/MA-010-0038--gymnastic-wooden-rings--0.jpg?format=webp');   
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+   #box1 {
+  width: 320px;
+  height: 320px;
+  background-color:rgb(360, 360, 360, 0.8);
+  border:solid black;
+  margin-left: 20px;
+  margin-bottom: 10px;
+        }
+ #box2 {
+  width: 320px;
+  height: 320px;
+  background-color:rgb(360, 360, 360, 0.8);
+  border:solid black;
+  margin-bottom: 10px;
+        }
+ #box3 {
+  width: 320px;
+  height: 320px;
+  background-color:rgb(360, 360, 360, 0.8);
+  border:solid black;
+        }
+ 
+}
+
+@media (max-width: 890px){
+  #header{
+  position: fixed;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  z-index: 1;
+}
+  .imagery{
+display:none;
+}
+img{
+  width: 30px;
+  margin: 20px;
+}
+figcaption{
+  font-size: 20px;
+  font-family: bahnscrift;
+}
+#nav-bar{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.nav-link{
+  font-size: 20px;
+  margin: 40px;
+  text-decoration: none;
+  color: black;
+}
+  
+  h1{
+  font-size: 70px;
+  }
+  iframe{
+  width: 400px;
+  height: 250px;
+}
+  
+   #third{
+  display: block;
+  height: 180vh;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  background-image: url('https://cdn.kingsbox.com/assets/media/products/body-weight/suspension-training/gymnastic-rings/MA-010-0038--gymnastic-wooden-rings--0.jpg?format=webp');   
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
